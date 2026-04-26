@@ -1,3 +1,4 @@
+import About from "./components/About"
 
 function App() {
   return(
@@ -5,15 +6,16 @@ function App() {
       <div className="absolute inset-0 animate-pulseGrid"
       style={{
       backgroundImage: `
-        linear-gradient(rgba(15, 37, 125,0.1) 1px, transparent 1px),
-        linear-gradient(90deg,rgba(15, 37, 125,0.1) 1px, transparent 1px)
+        linear-gradient(rgba(255, 255, 255,0.05) 1px, transparent 1px),
+        linear-gradient(90deg,rgba(255, 255, 255,0.05) 1px, transparent 1px)
       `,
       backgroundSize: "40px 40px"
-      }}>
-        <div className="max-w-5xl mx-auto px-4">
+      }}/>
+        <About></About>
+        <div className="relative z-10 max-w-5xl mx-auto px-4">
           
         </div>
-      </div>
+
     </div>
   );
 }
