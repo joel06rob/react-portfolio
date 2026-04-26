@@ -16,7 +16,7 @@ export default function About(){
                 <div className="flex-col">
                     <h1 className="text-3xl font-bold">Joel Osian Roberts</h1>
                     <p className="text-gray-400">
-                        Software Engineer DA | Embedded Systems
+                        Software Engineer DA | Learning Embedded Systems
                     </p>
                     <img className="mt-1 w-6 h-4" src="/welshflag.svg"></img>
                 </div>

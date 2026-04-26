@@ -1,9 +1,10 @@
 import About from "./components/About"
+import Experience from "./components/Experience";
 
 function App() {
   return(
-    <div className="min-h-screen bg-black text-white">
-      <div className="absolute inset-0 animate-pulseGrid"
+    <div className="relative min-h-screen bg-black text-white">
+      <div className="absolute inset-0 z-0 animate-pulseGrid"
       style={{
       backgroundImage: `
         linear-gradient(rgba(255, 255, 255,0.05) 1px, transparent 1px),
@@ -13,7 +14,7 @@ function App() {
       }}/>
         <About></About>
         <div className="relative z-10 max-w-5xl mx-auto px-4">
-          
+          <Experience></Experience>
         </div>
 
     </div>
