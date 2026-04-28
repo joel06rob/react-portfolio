@@ -20,7 +20,7 @@ const educations = [
 export default function Education(){
     return (
     <section>
-      <p className="pt-20 pb-6 text-xl font-semibold">Education</p>
+      <p className="pt-20 pb-6">Education:</p>
 
       {educations.map((edu, index) => (
         <div key={index} className="w-full p-6 bg-gray-950/55 rounded-lg mb-6 flex justify-between items-start">
@@ -34,7 +34,7 @@ export default function Education(){
           </div>
 
           <div className="flex flex-col items-end">
-            <img src={edu.logo} alt={edu.school} className="w-16 h-16 object-contain mb-2"/>
+            <img src={edu.logo} alt={edu.school} className="w-18 h-18 object-contain mb-2"/>
             <p className="text-sm text-gray-500">{edu.date}</p>
           </div>
         </div>

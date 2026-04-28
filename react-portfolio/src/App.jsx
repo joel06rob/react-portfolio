@@ -1,6 +1,7 @@
-import About from "./components/About"
+import About from "./components/About";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Skills from "./components/Skills";
 
 function App() {
   return(
@@ -17,6 +18,7 @@ function App() {
         <div className="relative z-10 max-w-5xl mx-auto px-4">
           <Experience></Experience>
           <Education></Education>
+          <Skills></Skills>
         </div>
 
     </div>
