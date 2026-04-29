@@ -23,7 +23,7 @@ export default function Education(){
       <p className="pt-20 pb-6">Education:</p>
 
       {educations.map((edu, index) => (
-        <div key={index} className="w-full p-6 bg-gray-950/55 rounded-lg mb-6 flex justify-between items-start">
+        <div key={index} className="w-full p-6 bg-[#161617]/55 rounded-lg mb-6 flex justify-between items-start">
 
           <div>
             <h3 className="text-xl font-semibold">{edu.qualification}</h3>

@@ -33,11 +33,11 @@ export default function About(){
 
             <div>
                 <p className="pt-6">Overview:</p>
-                <ul className="text-gray-400">
-                    <li> - I'm a Software Engineer degree apprentice with 2+ years experience in the software development industry.</li>
-                    <li> - Currently in my final year of my BSc degree where I work ~40 hours a week fulltime alongside at Adra.</li>
-                    <li> - I'm currently learning Embedded Systems and have been working on projects with microcontrollers like STM32Nucleo.</li>
-                    <li> - In my spare time I enjoy fitness, playing rugby and socialising.</li>
+                <ul className="text-gray-400 flex flex-col gap-1 pt-1">
+                    <li className="flex"><img src="/icons8-briefcase-16.png" className="object-contain pr-1"></img> I'm a Software Engineer degree apprentice with 2+ years experience in the software development industry.</li>
+                    <li className="flex"><img src="/icons8-graduate-16.png" className="object-contain pr-1"></img> Currently in my final year of my BSc degree where I work ~40 hours a week fulltime alongside at Adra.</li>
+                    <li className="flex"><img src="/icons8-cpu-16.png" className="object-contain pr-1"></img>  I'm currently learning Embedded Systems and have been working on personal projects with microcontrollers like STM32Nucleo.</li>
+                    <li className="flex"><img src="/icons8-person-16.png" className="object-contain pr-1"></img> In my spare time I enjoy fitness, playing rugby and socialising.</li>
                 </ul>
             </div>
 
