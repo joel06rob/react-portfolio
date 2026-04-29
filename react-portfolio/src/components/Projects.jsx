@@ -2,13 +2,18 @@ const projects = [
     {
         title: "Thinknote",
         desc: "A project planning list app",
-        langs: ["Javascript"]
+        langs: ["Javascript"],
+        img: "/thinknote.png",
+        link: "https://github.com/joel06rob/ThinkNote"
     },
     {
         title: "CEIR Terminal",
         desc: "A C Terminal simulating vehicle diagnostics and reporting",
-        langs: ["C", "Python"]
+        langs: ["C", "Python"],
+        img: "/ceirterminal.png",
+        link: "https://github.com/joel06rob/CEIR-Terminal"
     },
+    
 
 ]
 
@@ -24,8 +29,9 @@ export default function Projects(){
         <p className="pt-20 pb-6">Projects:</p>
         <div className="grid grid-cols-3 gap-3">
             {projects.map((proj, index) => (
-            <div key={index} className="bg-gray-950/55 p-6 rounded-lg mb-6">
-
+            <div key={index} className="bg-gray-950/55 p-6 rounded-lg mb-6 hover:bg-[#3d3d3d]/50 transition-colors duration-300">
+                <a href={proj.link}>
+                <img src={proj.img} className="rounded-lg pb-2"></img>
                 <h3 className="text-xl font-semibold">{proj.title}</h3>
                 <p className="text-gray-400 mb-4">{proj.desc}</p>
 
@@ -36,9 +42,14 @@ export default function Projects(){
                     </span>
                 ))}
                 </div>
-
+                </a>
             </div>
             ))}
+            <a href="https://github.com/joel06rob/" className="bg-gray-950/55 p-6 rounded-lg mb-6 hover:bg-[#3d3d3d]/50 transition-colors duration-300">
+                <img src="/icons8-github.svg" className="pb-2"></img>
+                <h3 className="text-xl font-semibold">More Projects ↗</h3>
+                <p className="text-gray-400 mb-4">I'm constantly learning and developing, see my Github for more projects!</p>
+            </a>
         </div>
       </section>  
     );
