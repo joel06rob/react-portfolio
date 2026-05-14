@@ -7,7 +7,7 @@ export default function Footer(){
                     <div className="p-1 bg-none hover:bg-[#3d3d3d]/50 rounded-lg"><a href="https://github.com/joel06rob"><img src="/icons8-github.svg"></img></a></div>
                     <div className="p-1 bg-none hover:bg-[#3d3d3d]/50 rounded-lg"><a href="https://www.linkedin.com/in/joel-osian-roberts-8a76b02b0/"><img src="/icons8-linkedin.svg"></img></a></div>
                 </div>
-                <p>© 2026 JR </p>
+                <p>© 2026 Joel Osian Roberts </p>
             </div>
             
         </footer>

@@ -27,13 +27,13 @@ export default function Projects(){
     return(
       <section>
         <p className="pt-20 pb-6">Projects:</p>
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-3">
             {projects.map((proj, index) => (
             <div key={index} className="bg-[#161617]/55 p-6 rounded-lg mb-6 hover:bg-[#3d3d3d]/50 transition-colors duration-300">
                 <a href={proj.link}>
                 <img src={proj.img} className="rounded-lg pb-2"></img>
-                <h3 className="text-xl font-semibold">{proj.title}</h3>
-                <p className="text-gray-400 mb-4">{proj.desc}</p>
+                <h3 className="text-lg md:text-xl font-semibold">{proj.title}</h3>
+                <p className="text-sm md:text-base text-gray-400 mb-4">{proj.desc}</p>
 
                 <div className="flex flex-wrap gap-2">
                 {proj.langs.map((lang, i) => (

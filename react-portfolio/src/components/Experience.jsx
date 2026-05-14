@@ -25,25 +25,22 @@ export default function Experience(){
             {experiences.map((exp, index) => (
             <div key={index} className="mb-10">
             
-            {/* Top row */}
             <div className="flex items-center gap-4">
                 <img
                 src={exp.logo}
                 alt={exp.company}
-                className="w-12 h-12 object-contain"
-                />
+                className="w-12 h-12 object-contain"/>
 
                 <div>
-                <h3 className="text-xl font-semibold">{exp.role}</h3>
-                <p className="text-gray-400">
+                <h3 className="text-lg md:text-xl font-semibold">{exp.role}</h3>
+                <p className="text-gray-400 text-sm md:text-base">
                     {exp.company} • {exp.location}
                 </p>
                 <p className="text-sm text-gray-500">{exp.date}</p>
                 </div>
             </div>
 
-            {/* Description list */}
-            <ul className="list-disc ml-16 mt-4 space-y-2">
+            <ul className="list-disc ml-16 mt-4 space-y-2 text-sm md:text-base">
                 {exp.desc.map((point, i) => (
                 <li key={i} className="text-gray-300">
                     {point}

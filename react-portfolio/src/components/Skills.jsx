@@ -70,12 +70,12 @@ export default function Skills(){
     return(
         <section>
             <p className="pt-20 pb-6">Skills:</p>
-            <div className="grid grid-cols-7 gap-4">
+            <div className="grid grid-cols-3 md:grid-cols-7 gap-4">
             {skills.map((skl, index) => (
                 <div key={index} className="p-2 bg-none hover:bg-[#3d3d3d]/50 rounded-lg transition-colors duration-300">
                     <a href={`https://github.com/joel06rob?tab=repositories&language=${skl.lang}`}>
-                        <img className="w-[45px] h-[45px]" src={skl.logo}></img>
-                        <p>{skl.lang}</p>
+                        <img className="w-[32px] h-[32px] md:w-[45px] md:h-[45px]" src={skl.logo}></img>
+                        <p className="text-sm md:text-base">{skl.lang}</p>
                         <div className="bg-gray-700 w-full h-1 mt-1 rounded">
                             <div className="bg-white h-1 rounded" style={{ width: `${(skl.level / 6) * 100}%` }}/>
                         </div>
