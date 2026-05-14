@@ -3,6 +3,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return(
@@ -22,7 +23,7 @@ function App() {
           <Skills></Skills>
           <Projects></Projects>
         </div>
-
+        <Footer></Footer>
     </div>
   );
 }
