@@ -8,7 +8,7 @@ export default function About(){
 
          
             <div className="absolute -top-16">
-            <img src="/profile.jpg" className="w-32 h-32 rounded-full border-4 border-black object-cover"/>
+            <img src="/pfp.jpg" className="w-32 h-32 rounded-full border-4 border-black object-cover"/>
             </div>
                 
 
@@ -16,7 +16,7 @@ export default function About(){
                 <div className="flex-col">
                     <h1 className="text-xl md:text-3xl font-bold">Joel Osian Roberts</h1>
                     <p className="text-gray-400 text-sm md:text-base">
-                        Software Engineer DA | Learning Embedded Systems
+                        Software Engineer Degree Apprentice | Learning Embedded Systems
                     </p>
                     <img className="mt-1 w-6 h-4" src="/welshflag.svg"></img>
                 </div>
@@ -34,10 +34,11 @@ export default function About(){
             <div>
                 <p className="pt-6">Overview:</p>
                 <ul className="text-gray-400 flex flex-col gap-2 md:gap-1 pt-1 text-sm md:text-base">
-                    <li className="flex"><img src="/icons8-briefcase-16.png" className="object-contain pr-1"></img> I'm a Software Engineer degree apprentice with 2+ years experience in the software development industry.</li>
-                    <li className="flex"><img src="/icons8-graduate-16.png" className="object-contain pr-1"></img> Currently in my final year of my BSc degree where I work ~40 hours a week fulltime alongside at Adra.</li>
-                    <li className="flex"><img src="/icons8-cpu-16.png" className="object-contain pr-1"></img>  I'm currently learning Embedded Systems and have been working on personal projects with microcontrollers like STM32Nucleo.</li>
+                    <li className="flex"><img src="/icons8-briefcase-16.png" className="object-contain pr-1"></img> I'm a Software Engineer Degree Apprentice with 2+ years experience in the software development industry.</li>
+                    <li className="flex"><img src="/icons8-graduate-16.png" className="object-contain pr-1"></img> Currently in my final year of my BSc degree where I work ~40 hours a week alongside at Adra.</li>
+                    <li className="flex"><img src="/icons8-cpu-16.png" className="object-contain pr-1"></img>  I'm currently learning Embedded Systems and have been working on personal projects with microcontrollers such as STM32Nucleo.</li>
                     <li className="flex"><img src="/icons8-person-16.png" className="object-contain pr-1"></img> In my spare time I enjoy fitness, playing rugby and socialising.</li>
+                    <li className="flex"><img src="/icons8-speech-bubble-16.png" className="object-contain pr-1"></img> English (Fluent), Welsh (Fluent), Swedish (Beginner)</li>
                 </ul>
             </div>
 
