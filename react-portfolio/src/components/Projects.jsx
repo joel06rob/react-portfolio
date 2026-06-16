@@ -1,10 +1,10 @@
 const projects = [
     {
-        title: "Thinknote",
-        desc: "A project planning list app",
-        langs: ["Javascript"],
-        img: "/thinknote.png",
-        link: "https://github.com/joel06rob/ThinkNote"
+        title: "Arduino Auth",
+        desc: "Local authentication through Arduino Uno Q",
+        langs: ["C++", "Arduino", "Python", "Javascript"],
+        img: "/arduinoauthss.jpg",
+        link: "https://github.com/joel06rob/Arduino-Auth-System"
     },
     {
         title: "CEIR Terminal",
@@ -13,14 +13,22 @@ const projects = [
         img: "/ceirterminal.png",
         link: "https://github.com/joel06rob/CEIR-Terminal"
     },
-    
-
+    {
+        title: "Thinknote",
+        desc: "A project planning list app",
+        langs: ["Javascript"],
+        img: "/thinknote.png",
+        link: "https://github.com/joel06rob/ThinkNote"
+    },
 ]
 
 const languages = {
     Python: "text-white bg-[#284E6A]/50 border-[#284E6A]",
     Javascript: "text-white bg-[#979522]/50 border-[#979522]",
-    C: "text-white bg-[#3A5061]/50 border-[#3A5061]"
+    C: "text-white bg-[#3A5061]/50 border-[#3A5061]",
+    "C++": "text-white bg-[#0C1C63]/50 border-[#0C1C63]",
+    Arduino: "text-white bg-[#92002E]/50 border-[#92002E]",
+    
 }
 
 export default function Projects(){
