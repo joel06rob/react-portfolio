@@ -6,12 +6,13 @@ const experiences = [
         date: "Aug 2024 - Present",
         logo: "/adra-logo.png",
         desc: [
-            "Developed several applications including a vehicle CO2 emissions tracking system managing 400+ assets, integrating external APIs (DVLA) and handling real-time data processing and reporting.",
-            "Built a secure, scalable document portal supporting thousands of users, implementing validation, access control, and backend sensitive data handling.",
+            "Developed multiple internal applications, including a vehicle CO2 emissions tracking platform managing 400+ assets, integrating external REST APIs (DVLA) via HTTP requests and supporting real-time data processing and reporting, supporting corporate social responsibility",
+            "Engineered a secure and scalable document management portal supporting 1000s of external users, implementing validation, access control, and sensitive backend data handling",
             "Contributed to a machine learning project using Python, supporting data processing, model integration and experimental workflows.",
-            "Refactoring, maintaining and optimising existing applications and automations to help improve performance and resolve system limitations.",
-            "Assisted with integrating AI into the organisation through building AI automations, chatbots and upskilling staff with skills for a better and more efficient use of AI.",
-            "Provided technical support and debugging for production systems, diagnosing issues across applications for users."            
+            "Built, refactored, and optimised automation workflows and Power Platform solutions (Power Automate, PowerShell, Power Apps) to streamline internal processes, improve performance and scalability, and reduce manual admin overhead.",
+            "Supported organisational AI adoption by developing AI chatbots and automation workflows using Copilot Studio, integrating knowledge-grounded data (RAG) retrieval for agents, document processing, and custom AI model training",
+            "Assisted with internal AI enablement by helping staff adopt AI tools effectively and safely, promoting best practices around governance, security, and efficient usage",
+            "Provided helpdesk-level support, diagnosing, debugging and resolving production issues to improve system reliability and reduce downtime."            
         ],
         url: "https://www.adra.co.uk"
     }

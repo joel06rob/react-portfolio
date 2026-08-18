@@ -7,6 +7,13 @@ const projects = [
         link: "https://github.com/joel06rob/Arduino-Auth-System"
     },
     {
+        title: "STM32 CAN Bus Arduino",
+        desc: "Establishing a CAN connection between an STM32F446RE and Arduino Uno Q - Bridging hardware via CAN and then visualising using a Web UI",
+        langs: ["STM32", "Arduino", "C", "In Development"],
+        img: "",
+        link: "https://github.com/joel06rob/STM32_to_Arduino_CAN"
+    },
+    {
         title: "CEIR Terminal",
         desc: "A C Terminal simulating vehicle diagnostics and reporting",
         langs: ["C", "Python"],
@@ -20,6 +27,7 @@ const projects = [
         img: "/thinknote.png",
         link: "https://github.com/joel06rob/ThinkNote"
     },
+    
 ]
 
 const languages = {
@@ -28,6 +36,8 @@ const languages = {
     C: "text-white bg-[#3A5061]/50 border-[#3A5061]",
     "C++": "text-white bg-[#0C1C63]/50 border-[#0C1C63]",
     Arduino: "text-white bg-[#92002E]/50 border-[#92002E]",
+    STM32: "text-white bg-[#92002E]/50 border-[#92002E]",
+    "In Development": "text-white bg-[#fa8b0c]/50 border-[#fa8b0c]"
     
 }
 
