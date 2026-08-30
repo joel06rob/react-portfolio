@@ -7,7 +7,7 @@ const skills = [
     {
         lang: "C",
         logo: "/c.png",
-        level: 3
+        level: 4
     },
     {
         lang: "C++",

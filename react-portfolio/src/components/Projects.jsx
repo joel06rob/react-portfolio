@@ -8,9 +8,9 @@ const projects = [
     },
     {
         title: "STM32 CAN Bus Arduino",
-        desc: "Establishing a CAN connection between an STM32F446RE and Arduino Uno Q - Bridging hardware via CAN and then visualising using a Web UI",
-        langs: ["STM32", "Arduino", "C", "In Development"],
-        img: "",
+        desc: "Establishing a Classic CAN connection between an STM32F446RE and Arduino Uno Q - Bridging hardware via CAN and then visualising the CAN frame using a Web UI",
+        langs: ["STM32", "Arduino", "C"],
+        img: "/P2_wiring.jpg",
         link: "https://github.com/joel06rob/STM32_to_Arduino_CAN"
     },
     {
