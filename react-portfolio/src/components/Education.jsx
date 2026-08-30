@@ -19,7 +19,7 @@ const educations = [
 
 export default function Education(){
     return (
-    <section>
+    <section id="education">
       <p className="pt-20 pb-6">Education:</p>
 
       {educations.map((edu, index) => (

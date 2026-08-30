@@ -21,7 +21,7 @@ const experiences = [
 
 export default function Experience(){
     return(
-        <section>
+        <section id="experience">
             <p className="pt-20 pb-6">Experience:</p>
             {experiences.map((exp, index) => (
             <div key={index} className="mb-10">

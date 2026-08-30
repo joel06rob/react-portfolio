@@ -3,6 +3,18 @@ export default function About(){
     return(
         <section className="relative w-full">
         <div className="h-48 md:h-56 bg-black/90" />
+        <nav className="max-w-5xl mx-auto px-4 py-6 flex justify-end">
+            <ul className="flex gap-6 text-sm text-gray-400">
+            <li><a href="#experience" className="hover:text-white transition-colors">Experience</a></li>
+
+            <li><a href="#education" className="hover:text-white transition-colors">Education</a></li>
+
+            <li><a href="#skills" className="hover:text-white transition-colors">Skills</a></li>
+
+            <li><a href="#projects" className="hover:text-white transition-colors">Projects</a></li>
+            </ul>
+        </nav>
+
 
         <div className="relative max-w-5xl mx-auto px-4">
 

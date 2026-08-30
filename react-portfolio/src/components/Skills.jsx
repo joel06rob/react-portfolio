@@ -68,7 +68,7 @@ const skills = [
 
 export default function Skills(){
     return(
-        <section>
+        <section id="skills">
             <p className="pt-20 pb-6">Skills:</p>
             <div className="grid grid-cols-3 md:grid-cols-7 gap-4">
             {skills.map((skl, index) => (

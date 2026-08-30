@@ -43,7 +43,7 @@ const languages = {
 
 export default function Projects(){
     return(
-      <section>
+      <section id="projects">
         <p className="pt-20 pb-6">Projects:</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-3">
             {projects.map((proj, index) => (
