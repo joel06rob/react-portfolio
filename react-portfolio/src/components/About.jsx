@@ -37,7 +37,7 @@ export default function About(){
                         <li className="p-1 bg-none hover:bg-[#3d3d3d]/50 rounded-lg"><a href="https://github.com/joel06rob"><img src="/icons8-github.svg"></img></a></li>
                         <li className="p-1 bg-none hover:bg-[#3d3d3d]/50 rounded-lg"><a href="https://www.linkedin.com/in/joel-osian-roberts-8a76b02b0/"><img src="/icons8-linkedin.svg"></img></a></li>
                         <li className="p-1 bg-none hover:bg-[#3d3d3d]/50 rounded-lg"><a href="mailto:joel.roberts2006@gmail.com"><img src="/icons8-mail-30.png"></img></a></li>
-                        <li className="p-1 bg-none hover:bg-[#3d3d3d]/50 rounded-lg"><a href=""><img src="/icons8-cv-30.png"></img></a></li>
+                        <li className="p-1 bg-none hover:bg-[#3d3d3d]/50 rounded-lg"><a href="JR_CV_SEPT.pdf"><img src="/icons8-cv-30.png"></img></a></li>
                     </ul>
                 </div>
                 
