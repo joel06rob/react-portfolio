@@ -14,6 +14,13 @@ const projects = [
         link: "https://github.com/joel06rob/STM32_to_Arduino_CAN"
     },
     {
+        title: "Vehicle ECU Dyno Simulator",
+        desc: "Developing a Dyno simulation by establishing a CAN connection between two ECU's, displaying real-time data in a dashboard interface.",
+        langs: ["STM32", "Arduino", "C", "Qt", "In Development"],
+        img: "",
+        link: ""
+    },
+    {
         title: "CEIR Terminal",
         desc: "A C Terminal simulating vehicle diagnostics and reporting",
         langs: ["C", "Python"],
@@ -37,7 +44,8 @@ const languages = {
     "C++": "text-white bg-[#0C1C63]/50 border-[#0C1C63]",
     Arduino: "text-white bg-[#92002E]/50 border-[#92002E]",
     STM32: "text-white bg-[#92002E]/50 border-[#92002E]",
-    "In Development": "text-white bg-[#fa8b0c]/50 border-[#fa8b0c]"
+    "In Development": "text-white bg-[#fa8b0c]/50 border-[#fa8b0c]",
+    Qt: "text-white bg-[#018543]/50 border-[#018543]"
     
 }
 
