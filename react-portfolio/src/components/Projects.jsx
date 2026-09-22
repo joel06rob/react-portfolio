@@ -18,7 +18,7 @@ const projects = [
         desc: "Developing a Dyno simulation by establishing a CAN connection between two ECU's, displaying real-time data in a dashboard interface.",
         langs: ["STM32", "Arduino", "C", "Qt", "In Development"],
         img: "",
-        link: ""
+        link: "https://github.com/joel06rob/STM32_Dyno_Simulator"
     },
     {
         title: "CEIR Terminal",
